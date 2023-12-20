@@ -29,11 +29,11 @@ h1 {
 
  #icon1 {
 margin-left: 50px;
-margin-left: 30px;
+
 }
 
 #icon2 {
-    margin-left: 0px;
+    margin-left: 10px;
 }
 
 
@@ -65,8 +65,6 @@ display: flex;
     grid-template-columns: auto auto auto;
     gap: 40px;
     margin-right: 30px;
-    
-   
 }
    
     
@@ -102,9 +100,26 @@ div > h4 {
 div > img {
     height: 150px;
     width: 300px;
-    
-    
 }
+
+.pagination {
+    display: inline-block;
+   
+  }
+  
+  .pagination a {
+    color: #909090;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .center {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .pagination :hover {
+    color: #FF7575;
+  }
 
 
 
